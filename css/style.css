@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("https://www.webmasterjournals.com/wp-content/uploads/Web-Design.jpg");
+    /* background: radial-gradient(circle, rgb(0, 81, 255), rgb(0, 255, 64), rgba(144, 194, 86, 0.884)); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reg {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 260px;
+    height: 400px;
+    margin: auto;
+    margin-top: 3cm;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: radial-gradient(circle, rgb(255, 30, 0), rgb(0, 255, 64), rgba(27, 4, 233, 0.884));
+}
+
+.reg h1,
+form .reset {
+    color: red;
+}
+
+form .inputFirstName,
+.inputLastName,
+.inputEmail,
+.inputPassword,
+.inputConfiriumPassword {
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 7%;
+    padding-left: 15px;
+}
+
+form .inputConfiriumPassword {
+    margin-bottom: 15px;
+}
+
+form .gender {
+    width: 25px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+form .reset,
+.submit {
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+form .submit {
+    color: green;
+}
+
+form .submit:hover {
+    background: green;
+    color: white;
+    border: none;
+}
+
+form .reset:hover {
+    background: red;
+    color: white;
+    border: none;
+}
+
+
+/* **************************************************** */

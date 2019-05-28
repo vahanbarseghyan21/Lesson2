@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    /* background: darkblue; */
+    background-repeat: no-repeat;
+    background: url("https://avatars.mds.yandex.net/get-zen_doc/167204/pub_5bb7665bb9a43b00aa8ef4d4_5bb7667e849b0200ad26f049/scale_1200");
+}
+
+.reg {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 3cm;
+    text-align: center;
+    background: radial-gradient(circle, rgb(255, 30, 0), rgb(0, 255, 64), rgba(255, 255, 255, 0.884));
+}
+
+.reg h1 {
+    color: rgb(255, 255, 255);
+}
+
+form .inputEmail,
+.inputPassword {
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 7%;
+    padding-left: 15px;
+}
+
+form .reset,
+.submit {
+    margin-top: 15px;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+form .submit {
+    color: green;
+}
+
+form .submit:hover {
+    background: green;
+    color: white;
+    border: none;
+}
+
+form .reset {
+    color: red;
+}
+
+form .reset:hover {
+    background: red;
+    color: white;
+    border: none;
+}
